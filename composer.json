@@ -10,12 +10,12 @@
   ],
   "autoload": {
     "psr-4": {
-      "AP\\Struct\\": "src/"
+      "AP\\Structure\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "AP\\Struct\\Tests\\": "tests/"
+      "AP\\Structure\\Tests\\": "tests/"
     }
   },
   "require": {

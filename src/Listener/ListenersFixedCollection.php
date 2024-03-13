@@ -1,11 +1,11 @@
 <?php
 
-namespace LeapTheory\Structure\Listener;
+namespace AP\Structure\Listener;
 
-use LeapTheory\Structure\Collection\AbstractCollection;
-use LeapTheory\Structure\Collection\InterfacesCollection;
+use AP\Structure\Collection\AbstractCollection;
+use AP\Structure\Collection\InterfacesCollection;
 
-class ListenersCollection extends AbstractCollection
+class ListenersFixedCollection extends AbstractCollection
 {
     private array $index = [];
 

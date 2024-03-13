@@ -1,6 +1,6 @@
 <?php
 
-namespace LeapTheory\Structure\Collection;
+namespace AP\Structure\Collection;
 
 use ArrayAccess;
 use ArrayIterator;

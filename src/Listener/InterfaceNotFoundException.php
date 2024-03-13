@@ -1,6 +1,6 @@
 <?php
 
-namespace LeapTheory\Structure\Listener;
+namespace AP\Structure\Listener;
 
 use InvalidArgumentException;
 use Throwable;
