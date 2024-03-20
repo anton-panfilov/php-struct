@@ -2,6 +2,7 @@
   "name": "anton-panfilov/php-struct",
   "description": "data structures for php 8.1+",
   "type": "library",
+  "homepage": "https://github.com/anton-panfilov/php-struct",
   "license": "MIT",
   "authors": [
     {
