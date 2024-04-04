@@ -5,7 +5,7 @@ namespace AP\Structure\Collection;
 class ObjectsCollection extends AbstractCollection
 {
     public function __construct(
-        private readonly string  $class,
+        public readonly string  $class,
         array|AbstractCollection $data = []
     )
     {
