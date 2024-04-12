@@ -113,5 +113,28 @@ final class SortTest extends TestCase
                 (new SortElement("1"))->addSortValue(1),
             ]))
         );
+
+        // vs prev, if second param there is only on second one, code will no use second param
+        $this->assertEquals(
+            [
+                "-1",
+                "1",
+                "2_second_with_extra_param",
+                "2_first",
+                "2_third",
+                "3",
+                "11",
+            ],
+            Sort::sort(new SortElementsCollection([
+
+                (new SortElement("11"))->addSortValue(11),
+                (new SortElement("2_second_with_extra_param"))->addSortValue(2)->addSortValue(5),
+                (new SortElement("2_first"))->addSortValue(2),
+                (new SortElement("-1"))->addSortValue(-1),
+                (new SortElement("3"))->addSortValue(3),
+                (new SortElement("2_third"))->addSortValue(2),
+                (new SortElement("1"))->addSortValue(1),
+            ]))
+        );
     }
 }
