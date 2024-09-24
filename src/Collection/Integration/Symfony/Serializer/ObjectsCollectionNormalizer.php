@@ -64,7 +64,7 @@ class ObjectsCollectionNormalizer implements
 
                     if (!class_exists($cl)) {
                         throw new RuntimeException(
-                            "invalid calss: " . self::EL_CLASS
+                            "invalid type: " . $cl
                         );
                     }
                 } else {
